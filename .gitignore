@@ -1,0 +1,11 @@
+/target
+/classes
+/checkouts
+profiles.clj
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+/.prepl-port
+.hgignore
+.hg/
