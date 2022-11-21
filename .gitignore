@@ -9,3 +9,4 @@ profiles.clj
 /.prepl-port
 .hgignore
 .hg/
+/.idea/vcs.xml
