@@ -52,7 +52,6 @@
            []                                               ;valor opcional INICIAL, um Vector vazio
            asym-body-parts))                                ;coleção referência para a recursividade
 
-
 ;função que acerta o hit em algum lugar aleatorio
 (defn hit
   [asym-body-parts]
@@ -63,5 +62,3 @@
       (if (> accumulated-size target)
       part
       (recur remaining (+ accumulated-size (:size (first remaining))))))))
-
-
