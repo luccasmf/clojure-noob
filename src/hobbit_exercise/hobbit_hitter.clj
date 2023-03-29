@@ -39,9 +39,7 @@
       (let [[part & remaining] remaining-asym-parts]        ;divide a lista em uma head (part) que será processada, e uma tail (remaining) que entrará na recursividade
         (recur remaining
                (into final-body-parts
-                     (set [part (matching-part part)]))))))) ;refaz o loop com um novo valor de "remaining-asym-parts" e um novo valor de "final-body-parts"
-
-
+                     (set [part (matching-part part)]))))))) ;refaz o loop com um novo valor de "remaining-asym-parts" e um novo valor de "final-body-parts
 
 ;versão melhorada do symmetrizzer
 (defn better-symmetrize-body-parts
